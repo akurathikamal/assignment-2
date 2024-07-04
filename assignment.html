@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Form</title>
+	<link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+	<form>
+		<h2>Student Form</h2>
+		<label for="rollno">Student Roll No:</label>
+		<input type="number" id="rollno" name="rollno" required placeholder="Enter your roll number" autofocus>
+
+		<label for="name">Student Name:</label>
+		<input type="text" id="name" name="name" required placeholder="Enter your name">
+
+		<label for="dept">Department:</label>
+		<select id="dept" name="dept" required>
+			<option value="">-Select Department-</option>
+			<option value="CSE">Computer Science and Engineering</option>
+			<option value="ECE">Electronics and Communication Engineering</option>
+			<option value="MECH">Mechanical Engineering</option>
+			<option value="CIVIL">Civil Engineering</option>
+			<option value="IT">Information Technology</option>
+		</select>
+
+		<label for="10thmarks">10th Marks:</label>
+		<input type="number" id="10thmarks" name="10thmarks" required placeholder="Enter your 10th marks">
+
+		<label for="12thmarks">12th Marks:</label>
+		<input type="number" id="12thmarks" name="12thmarks" required placeholder="Enter your 12th marks">
+
+		<label for="degreepercentage">Degree Percentage(CGPA):</label>
+		<input type="number" id="degreepercentage" name="degreepercentage" required placeholder="Enter your degree percentage">
+
+		<button type="submit" class="submit-btn">Submit</button>
+		<button type="reset" class="cancel-btn">Cancel</button>
+	</form>
+</body>
+</html>
