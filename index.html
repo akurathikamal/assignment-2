@@ -2,50 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Registration Form</title>
-    <link rel="stylesheet" href="assi-2.css">
+    <title>Project1</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
-    <div class="container">
-        <form id="studentForm" action="#" method="post">
-            <h2>Student Registration Form</h2>
-            <div class="form-group">
-                <label for="rollno">Roll Number:</label>
-                <input type="text" id="rollno" name="rollno" placeholder="Enter Roll Number" required>
-            </div>
-            <div class="form-group">
-                <label for="name">Student Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter Student Name" required>
-            </div>
-            <div class="form-group">
-                <label for="dept">Department:</label>
-                <select id="dept" name="dept" required>
-                    <option value="" disabled selected>Select Department</option>
-                    <option value="CSE">Computer Science Engineering</option>
-                    <option value="ECE">Electronics and Communication Engineering</option>
-                    <option value="MECH">Mechanical Engineering</option>
-                    <option value="CIVIL">Civil Engineering</option>
-                    <option value="IT">Information Technology</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="marks10">10th Marks:</label>
-                <input type="number" id="marks10" name="marks10" placeholder="Enter 10th Marks" required>
-            </div>
-            <div class="form-group">
-                <label for="marks12">12th Marks:</label>
-                <input type="number" id="marks12" name="marks12" placeholder="Enter 12th Marks" required>
-            </div>
-            <div class="form-group">
-                <label for="degree">Degree Percentage:</label>
-                <input type="number" id="degree" name="degree" placeholder="Enter Degree Percentage" required>
-            </div>
-            <div class="button-container">
-                <button type="submit" class="submit-btn">Submit</button>
-                <button type="button" class="cancel-btn">Cancel</button>
-            </div>
-        </form>
-    </div>
+<body><center>
+    <table border="1" class="table">
+        <tr>
+            <th colspan="6">Time Table</th></tr>
+         <tr><th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+        <tr><th colspan="6"> Lunch</th></tr>
+        <tr>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td colspan="2" rowspan="2" style="text-align:center ;">Project</td>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+        </tr>
+    </table></center>
 </body>
 </html>
